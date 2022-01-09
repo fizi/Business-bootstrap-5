@@ -1,0 +1,38 @@
+<!-- Magic Shortcodes - proof of concept -->
+<!-- Enabled Debug in 'basic' mode to view all available types -->
+
+{---HEADER---}
+
+<!-- Page Content -->
+<div id="main-content" class="container-fluid w-75">
+
+  <!-- Page Heading/Breadcrumbs -->
+  {ALERTS}
+
+  <div class="row">
+    <div class='col-md-4'>
+	  <!-- Standard sidebar menu -->
+	  <div class='rightcol'> 
+		{SETSTYLE=rightcol}
+		{MENU=1}
+        {MENU=2} 
+	  </div>
+	</div>  
+    <!-- Blog Entries Column -->
+    <div class='col-md-8'>
+	  {SETSTYLE=main} 
+	  {---}
+      {SETSTYLE=leftbottom}
+      <div class="row">
+        <div class="col-md">
+          {MENU=6}
+        </div>
+        <div class="col-md">
+          {MENU=7}
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.row -->
+</div>
+  <!-- /.container -->

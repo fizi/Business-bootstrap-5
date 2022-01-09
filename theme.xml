@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Theme name="Business BS5" version="1.0" date="2021-11-27" compatibility="2.0" >
+	<author name="fizi" url="http://fizithemes.hu" email="fizi@wsb.hu"/>
+	<summary>Modern Business theme by fizi</summary>
+	<description>Bootstrap 5 theme</description>
+  <category>business</category>
+  <copyright>Theme by: FIZI THEMES</copyright>
+  <plugins>
+    <plugin name='hero' url='core' />
+    <plugin name='social' url='core' />
+    <plugin name='testimonials' url='core' />
+  </plugins>
+  <keywords>
+    <word>bootstrap</word>
+    <word>business theme</word>
+    <word>responsive</word>
+  </keywords>
+  <libraries>
+    <library name="bootstrap" version="5" scope="all"/>
+	<library name="fontawesome" version="5" scope="all"/>
+  </libraries>
+  <screenshots>
+	<image>preview.jpg</image>
+  </screenshots>
+  <stylesheets>
+    <css file="style.css" name="Default" />
+  </stylesheets>
+  <layouts>
+    <layout name='home' title='Home Page' >
+	  <custompages>FRONTPAGE</custompages>
+	</layout>
+    <layout name='news' title='News Page' >
+	  <custompages>/news</custompages>
+	</layout>
+    <layout name='extend_news' title='Extend News' default='false'>
+      <custompages>/news/view/</custompages>
+    </layout> 
+    <layout name='singlecontact' title='Contact Page'>
+	  <custompages>contact</custompages>
+	</layout>
+    <layout name='singleportfolio' title='Portfolio Page'>
+	  <custompages>portfolio</custompages>
+	</layout>    
+    <layout name='full' title='Full Page' default='true' />
+	<layout name='sidebar_right' title='Sidebar (right)' default='false' />	
+  </layouts>
+</e107Theme>

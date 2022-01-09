@@ -1,0 +1,45 @@
+<body class="d-flex flex-column h-100 {LAYOUT_ID}" {BODY_ONLOAD} >
+
+{---MODAL---}
+
+  <main class="flex-shrink-0">
+
+<!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container px-5">
+        <a class="navbar-brand" href="index.html">{SITENAME}</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          {NAVIGATION=main}
+        </div>
+      </div>
+    </nav>
+
+<!--- Optional custom header template controlled by theme_shortcodes -->
+{---HEADER---}
+
+
+<!-- Page Content -->
+{---LAYOUT---}
+
+  </main>
+
+<!-- Footer --> 
+  <footer class="bg-dark py-4 mt-auto">
+    <div class="container px-5">
+      <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+        <div class="col-auto">
+          <div class="small m-0 text-white">{SITEDISCLAIMER}</div>
+        </div>
+        <div class="col-auto">
+          {NAVIGATION=footer}
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!--- Optional custom footer template controlled by theme_shortcodes -->
+{---FOOTER---}
+
+<!-- Javascripts and other information are automatically added below here -->
+</body> <!-- This tag is not necessary and is ignored and replaced. Left here only as a reference -->
