@@ -147,14 +147,14 @@ $NAVIGATION_TEMPLATE["footer"]["start"] = "
 ";
 
 $NAVIGATION_TEMPLATE["footer"]["item"] = "
-  <a class='text-white-50 small' href='{NAV_LINK_URL}'{NAV_LINK_OPEN} title=\"{NAV_LINK_DESCRIPTION}\">{NAV_LINK_ICON}{NAV_LINK_NAME}</a>
+  <a class='link-light small' href='{NAV_LINK_URL}'{NAV_LINK_OPEN} title=\"{NAV_LINK_DESCRIPTION}\">{NAV_LINK_ICON}{NAV_LINK_NAME}</a>
   <span class='text-white mx-1'>&middot;</span>";
   
 $NAVIGATION_TEMPLATE["footer"]["item_submenu"] = "
 ";
   
 $NAVIGATION_TEMPLATE["footer"]["item_active"] = "
-  <a class='text-white small active' href='{NAV_LINK_URL}' title=\"{NAV_LINK_DESCRIPTION}\">{NAV_LINK_ICON}{NAV_LINK_NAME}</a>
+  <a class='link-light small active' href='{NAV_LINK_URL}' title=\"{NAV_LINK_DESCRIPTION}\">{NAV_LINK_ICON}{NAV_LINK_NAME}</a>
   <span class='text-white mx-1'>&middot;</span>";
   
 $NAVIGATION_TEMPLATE["footer"]["end"] = "

@@ -1,1 +1,815 @@
-body,html {  height: 100%;}.feature {  display: inline-flex;  align-items: center;  justify-content: center;  height: 3rem;  width: 3rem;  font-size: 1.5rem;}.bg-featured-blog {  height: 100%;  width: 100%;  background-size: cover;  background-position: center;  background-repeat: no-repeat;  min-height: 15rem;}/* ----------------------------------------------------------------------------- */a {  color: var(--bs-body-color);}a:hover {  color: var(--bs-gray-600);}.text-underline-hover {  text-decoration: none;}.text-underline-hover:hover {  text-decoration: underline;}a:not([class]) {  text-decoration: none;}a:not([class]):hover {  text-decoration: underline;}/**************************************** HERO CAROUSEL - MOD BY FIZI **************************************************************/#carousel-hero.carousel .carousel-inner .item {  background-color: #212529 !important;}.hero-list li .hero-list-text {  font-size: 1.25rem;}#carousel-hero .hero-list li {  padding-bottom: 6px;}/* ==========================================  CUSTOM Multilevel Main menu - mod by fizi========================================== */.navbar-nav .dropdown-submenu {  position: relative;}.navbar-nav .dropdown-submenu > a:after {   float: right;  border: none;    content: "\f0da";  /* >> Name of the FA free font (mandatory), e.g.:               - 'Font Awesome 5 Free' for Regular and Solid symbols;               - 'Font Awesome 5 Pro' for Regular and Solid symbols (Professional License);               - 'Font Awesome 5 Brand' for Brands symbols. */    font-family: 'Font Awesome\ 5 Free';  /* >> Weight of the font (mandatory):               - 400 for Regular and Brands symbols;               - 900 for Solid symbols;               - 300 for Light symbols. */  font-weight: 900;  /* >> Optional styling: */  /* ... */}.navbar-nav .dropdown-submenu >.dropdown-menu{  top: 0;  left: 100%;  margin-top: 0px;  margin-left: 0px;}/*------------------------------------------	BREADCRUMB--------------------------------------------*/ .breadcrumb {  padding: .5rem 1rem;  background-color: #e9ecef;}/*------------------------------------------	CONTACT MAP STYLE--------------------------------------------*/ #contactInfo iframe.sc-contact-map {  overflow: hidden;  width: 100%;  height: 400px;}         /**************************************** MAIN MENU TOGGLER **************************************************************/ /* Set the border color */ #header .navbar > .navbar-toggler,.header-navigation .navbar > .navbar-toggler {   border-color: rgba(255,255,255,0.5); } #header .navbar > .navbar-toggler:hover,.header-navigation .navbar > .navbar-toggler:hover {   border-color: #f36100; } /* Setting the stroke to green using rgb values (0, 128, 0) */ #header .navbar > .navbar-toggler .navbar-toggler-icon,.header-navigation .navbar > .navbar-toggler .navbar-toggler-icon {   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); } #header .navbar > .navbar-toggler:hover .navbar-toggler-icon,.header-navigation .navbar > .navbar-toggler:hover .navbar-toggler-icon {   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(243,97,0,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }/* MAIN MENU TOGGLER MENUBOX */@media (max-width: 767px) {  .navbar-custom .navbar-collapse {    background-color: #000;    padding: 15px;  } }/**************************************** PAGETITLE ******************************************************//**************************************** MAIN CONTENT ***********************************************************//**************************************** MAIN CONTENT LEFT COLUMN ***********************************************//**************************************** NEWS LAYOUT ***************************************************//**************************************** NEWS EXTENDED LAYOUT ***************************************************//**************************************** VIEW ITEM - NEWS-VIEW-PAGINATION ********************************************//**************************************** VIEW ITEM - AUTHOR ********************************************//**************************************** NEWS EXTENDED POST - RATE **********************************************//**************************************** NEWS EXTENDED RELATED NEWS *********************************************/.e-related {  margin-top: 25px;}.e-related h2.related-news-title {  font-family: "Oswald", sans-serif;   font-size: 26px;  font-weight: 500;  color: #fff;  line-height: 30px;  margin: 0;  padding: 15px 0 25px 0;}.e-related .related-news-image {  overflow: hidden;  margin: 0;  padding: 0;}.e-related .related-news-image img {  padding: 0;  -moz-border-radius: 0;  -khtml-border-radius: 0;  -webkit-border-radius: 0;  border-radius: 0;   -o-transition: transform 1s;  -ms-transition: transform 1s;  -moz-transition: transform 1s;  -webkit-transition: transform 1s;  transition:transform 1s;  }.e-related .related-news-image:hover img {    -webkit-transform: scale(1.2);  -moz-transform: scale(1.2);  -o-transform: scale(1.2);  -ms-transform: scale(1.2);  transform: scale(1.2);}.e-related .related-news-header {  margin: 0 0 15px 0;  padding: 10px 0 15px 0;}.e-related .related-news-header h4.related-news-caption {  font-family: "Oswald", sans-serif;   font-size: 18px;  font-weight: 500;  color: #c4c4c4;  line-height: 1.1;}.e-related .related-news-header h4.related-news-caption a {  color: #fff;}.e-related .related-news-header h4.related-news-caption a:hover {  color: #f36100;}.e-related  .related-news-header .related-news-summary {  color: #c4c4c4;}.view-item-back {  margin: 0 0 30px 0;  padding: 0;  text-align: center;}/**************************************** NEWS - CATEGORY'S NEWS LAYOUT ******************************************//* Same as news default *//**************************************** NEWS LIST LAYOUT *******************************************************/.list-news-items {  margin-bottom: 25px;}.list-news-items .list-news-item {  overflow: hidden;   margin: 0 0 30px 0;  padding: 0;  background-color: #transparent;  border: 1px solid #363636;}.list-news-items .list-news-item:hover {  border: 1px solid #f36100;} .list-news-items .list-news-item-image {  overflow: hidden;  margin: 0;}.list-news-items .list-news-item-image img {  position: relative;  padding: 0;  -moz-border-radius: 0 !important;  -khtml-border-radius: 0 !important;  -webkit-border-radius: 0 !important;  border-radius: 0 !important;   -o-transition: transform 1s;  -ms-transition: transform 1s;  -moz-transition: transform 1s;  -webkit-transition: transform 1s;  transition:transform 1s;   }.list-news-items .list-news-item-image:hover img {    -webkit-transform: scale(1.2);  -moz-transform: scale(1.2);  -o-transform: scale(1.2);  -ms-transform: scale(1.2);  transform: scale(1.2);}.list-news-items .list-news-item-image .list-news-item-category {  position: absolute;  top: 10px;  left: 25px;  overflow: hidden;   display: inline-block;  background-color: #f8ad30;         padding: 7px 8px;  font-family: "Oswald", sans-serif;   font-size: 18px;   font-weight: 600;  color: #fff;  line-height: 1;  text-transform: uppercase;}.list-news-items .list-news-item-image .list-news-item-category a {  color: #fff;}.list-news-items .list-news-item-image .list-news-item-category a:hover {  color: #000;}.list-news-items h2.list-news-item-title {  font-family: "Oswald", sans-serif;   font-size: 22px;   font-weight: 600;  color: #fff;  line-height: 28px;  margin: 0;  padding: 10px 15px 10px 5px;}.list-news-items h2.list-news-item-title a {  color: #f36100; }.list-news-items h2.list-news-item-title a:hover {  color: #fff;}.list-news-items .list-news-item-info {  font-family: "Oswald", sans-serif;  font-size: 12px;  font-weight: 500;   color: #888;  padding: 0 15px 10px 5px; }.list-news-items .list-news-item-info a {  color: #c4c4c4;}.list-news-items .list-news-item-info a:hover {  color: #f36100;}.list-news-items .list-news-item-body {  padding: 0 15px 10px 5px; }.list-news-items .list-news-item-body p {   font: 14px Sans-serif;    color: #a1a1a1;         margin: 0;  padding: 0 0 10px 0;   /* hide text if it more than N lines  */  overflow: hidden;  /* for set '...' in absolute position */  position: relative;   /* use this value to count block height */  line-height: 1.2em;  /* max-height = line-height (1.2) * lines max number (3) */  max-height: 7.2em;   /* fix problem when last visible word doesn't adjoin right side  */  text-align: justify;    /* place for '...' */  padding-right: 1em; }/* create the ... */.list-news-items .list-news-item-body p:before {  /* points in the end */  content: '...';  /* absolute position */  position: absolute;  /* set position to right bottom corner of block */  right: 0;  bottom: 0;}/* hide ... if we have text, which is less than or equal to max lines */.list-news-items .list-news-item-body p:after {  /* points in the end */  content: '';  /* absolute position */  position: absolute;  /* set position to right bottom corner of text */  right: 0;  /* set width and height */  width: 1em;  height: 1em;  margin-top: 0.2em;  /* bg color = bg color under block */  background: #151515;}.list-news-items .list-news-item-extended a {   display: inline-block;   font-size: 24px;    color: #828282;  line-height: 1.6;  text-transform: uppercase;    float: right;    padding: 0 25px 10px 5px;}.list-news-items .list-news-item-extended a:hover {  color: #f36100;  text-decoration: none;}/**************************************** MAIN CONTENT LEFT BOTTOM MENUS ***********************************************/.leftbottom-content {   overflow: hidden;  margin: 0 0 30px 0;  padding: 80px 20px 20px 50px;  background-color: transparent;}.leftbottom-content-title {   margin: 0 0 25px 0;  padding: 0;}.leftbottom-content-title h2 {  font-family: "Exo 2", sans-serif;  font-size: 20px;  font-weight: 600;    color: #fff;  text-transform: uppercase;  line-height: 1.2;   margin: 0;  padding: 0;} .leftbottom-content-body {    font: 14px sans-serif;   color: #888;   padding: 0;}/**************************************** MAIN CONTENT RIGHT COLUMN ***********************************************/.rightcol {  margin: 0;  padding: 0;}.rightcol-content {   overflow: hidden;  margin: 0 0 30px 0;  padding: 25px 25px;  background-color: rgba(197, 203, 207, 0.1);  border-top: 7px solid #ff6600;}.rightcol-content-title {   margin: 0 0 25px 0;  padding: 0;}.rightcol-content-title h2 {  font-family: "Exo 2", sans-serif;  font-size: 20px;  font-weight: 600;    color: #fff;  text-transform: uppercase;  line-height: 1.2;   margin: 0;  padding: 0;}.rightcol-content-title h2:after {  content: "";   display: block;  margin: 0;  width: 50%;  padding-top: 15px;  border-bottom: 3px solid #3e3e3e;}.rightcol-content-body {    font: 14px sans-serif;   color: #888;   padding: 0;}/* SIDEBAR menu ul, li, badget */.rightcol-content-body > ul {  margin: 0;  padding: 0;}.rightcol-content-body > ul > li {  list-style: none;  background-color: #1c1c1c;  border: none;  margin: 3px 0;  padding: 3px 5px;  display: block; }.rightcol-content-body > ul > li:hover,.rightcol-content-body > ul > li.active {  background-color: #f36100;}.rightcol-content-body > ul > li > a {   font-family: "Oswald", sans-serif;   font-size: 14px;  font-weight: 400;   color: #c4c4c4;  line-height: 25px;  text-transform: uppercase;  background-color: transparent;  padding: 0;  }.rightcol-content-body > ul > li > a:hover,.rightcol-content-body > ul > li > a:focus {   color: #fff; }.rightcol-content-body > ul > li > a span.badge {  float: right;  background-color: transparent;  font-family: "Oswald", sans-serif;   font-size: 14px;  font-weight: 400;   line-height: 25px;  color: #c4c4c4;  margin-left: 15px;  padding: 0;}.rightcol-content-body > ul > li > a:hover span.badge {  background-color: transparent;  color: #fff;}/* SIDEBAR menu h2 span btn */.rightcol-content-title h2 span.btn-group {  margin-top: -5px;  vertical-align: middle;}.rightcol-content-title h2 span.btn-group a.btn {  font-size: 20px;  line-height: 1.2;  padding: 0 5px;}/* SIDEBAR menu media-list */ .rightcol-content li.media {  border-bottom: 1px solid rgba(0,0,0,0.1);  margin-top: 0;  padding: 10px 0;}.rightcol-content li.media .media-object img {  -moz-border-radius: 50% !important;  -khtml-border-radius: 50% !important;  -webkit-border-radius: 50% !important;  border-radius: 50% !important; }.rightcol ::-webkit-input-placeholder { color: rgba(0,0,0,0.1); }.rightcol ::-moz-placeholder { color: rgba(0,0,0,0.1); }.rightcol :-ms-input-placeholder { color: rgba(0,0,0,0.1); }.rightcol :-moz-placeholder { color: rgba(0,0,0,0.1); }/**************************************** FOOTER *****************************************************************//**************************************** FOOTER LOGO, SITENAME, SITETAG *********************************************************//**************************************** COMMENTS STYLE *********************************************************//**************************************** OTHER MENU STYLE *******************************************************//**************************************** LATEST NEWS MENU *******************************************************//**************************************** POPULAR NEWS MENU *******************************************************//**************************************** TAGCLOUD MENU *******************************************************//**************************************** COMMENTS MENU *******************************************************//**************************************** CHATBOX MENU *******************************************************//**************************************** CONTACT *******************************************************//********************************************* CONTACT INFO BOTTOM ********* **************************************//**************************************** FOOTER NAVIGATION LINKS *******************************************************//**************************************** GALLERY *******************************************************/   /**************************************** USERPROFIL PAGE - CARD STYLE *******************************************************//*---------------------------------------	WMESSAGE - PART OF HOMEPAGE-----------------------------------------*//********************** core style ********************************//*------------------------------------------	tbox, chatbox, button--------------------------------------------*/ /*------------------------------------------	PAGINATION--------------------------------------------*//*------------------------------------------	TABS--------------------------------------------*/ /*------------------------------------------	PAGER--------------------------------------------*/ /*------------------------------------------	PROGRESS BAR --------------------------------------------*//*------------------------------------------	BBCODE PANEL --------------------------------------------*//*------------------------------------------	FORUMS--------------------------------------------*//*------------------------------------------	FORUM TRACK --------------------------------------------*/   /*------------------------------------------	FORUM VIEWFORUM --------------------------------------------*//*------------------------------------------	FORUM VIEWTOPIC --------------------------------------------*//*------------------------------------------	FORUM STATS - RESPONSIVE --------------------------------------------*//*------------------------------------------	OTHER TABLE STYLE ************************ --------------------------------------------*//* TEXTS */.smalltext { font: 11px Arial, Helvetica, Sans-serif; } .smallblacktext { font: 11px Arial, Helvetica, Sans-serif; }  .defaulttext { font: 13px Arial, Helvetica, Sans-serif; }.mediumtext { font: 12px Arial, Helvetica, Sans-serif; }blockquote {    font-family: "oswald", sans-serif;  font-size: 15px;  font-weight: 500;  color: #fff;  line-height: 1.2;   text-align: center;  border: 2px solid #363636;  padding: 40px 22px 25px;  position: relative;  margin-bottom: 30px;  quotes: "\201C""\201D""\2018""\2019";   }blockquote:before {      color: #f36100;  content: open-quote;  font-size: 4em;  line-height: 0.1em;  margin-right: 0.25em;  vertical-align: -0.4em; }/* MISC *//* form { margin: 2px 0px 0px 0px; }  */
+
+
+body,
+html {
+  height: 100%;
+}
+
+.feature {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  width: 3rem;
+  font-size: 1.5rem;
+}
+
+.bg-featured-blog {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 15rem;
+}
+
+/* ----------------------------------------------------------------------------- */
+
+a {
+  color: var(--bs-body-color);
+}
+a:hover {
+  color: var(--bs-gray-600);
+}
+
+.text-underline-hover {
+  text-decoration: none;
+}
+.text-underline-hover:hover {
+  text-decoration: underline;
+}
+a:not([class]) {
+  text-decoration: none;
+}
+a:not([class]):hover {
+  text-decoration: underline;
+}
+
+/*************************************
+*** HERO CAROUSEL - MOD BY FIZI ************************
+**************************************/
+#carousel-hero.carousel .carousel-inner .item {
+  background-color: #212529 !important;
+}
+.hero-list li .hero-list-text {
+  font-size: 1.25rem;
+}
+#carousel-hero .hero-list li {
+  padding-bottom: 6px;
+}
+
+
+/* ==========================================
+  CUSTOM Multilevel Main menu - mod by fizi
+========================================== */
+.navbar-nav .dropdown-submenu {
+  position: relative;
+}
+.navbar-nav .dropdown-submenu > a:after { 
+  float: right;
+  border: none;  
+  content: "\f0da";
+  /* >> Name of the FA free font (mandatory), e.g.:
+               - 'Font Awesome 5 Free' for Regular and Solid symbols;
+               - 'Font Awesome 5 Pro' for Regular and Solid symbols (Professional License);
+               - 'Font Awesome 5 Brand' for Brands symbols. */  
+  font-family: 'Font Awesome\ 5 Free';
+  /* >> Weight of the font (mandatory):
+               - 400 for Regular and Brands symbols;
+               - 900 for Solid symbols;
+               - 300 for Light symbols. */
+  font-weight: 900;
+  /* >> Optional styling: */
+  /* ... */
+}
+.navbar-nav .dropdown-submenu >.dropdown-menu{
+  top: 0;
+  left: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+/*------------------------------------------
+	BREADCRUMB
+--------------------------------------------*/ 
+.breadcrumb {
+  padding: .5rem 1rem;
+  background-color: #e9ecef;
+}
+
+
+/*------------------------------------------
+	CONTACT MAP STYLE
+--------------------------------------------*/ 
+#contactInfo iframe.sc-contact-map {
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         
+
+
+
+
+
+
+/*************************************
+*** MAIN MENU TOGGLER ************************
+**************************************/ 
+/* Set the border color */ 
+#header .navbar > .navbar-toggler,
+.header-navigation .navbar > .navbar-toggler { 
+  border-color: rgba(255,255,255,0.5); 
+} 
+#header .navbar > .navbar-toggler:hover,
+.header-navigation .navbar > .navbar-toggler:hover { 
+  border-color: #f36100; 
+} 
+/* Setting the stroke to green using rgb values (0, 128, 0) */ 
+#header .navbar > .navbar-toggler .navbar-toggler-icon,
+.header-navigation .navbar > .navbar-toggler .navbar-toggler-icon { 
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+#header .navbar > .navbar-toggler:hover .navbar-toggler-icon,
+.header-navigation .navbar > .navbar-toggler:hover .navbar-toggler-icon { 
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(243,97,0,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+}
+
+/* MAIN MENU TOGGLER MENUBOX */
+
+@media (max-width: 767px) {
+  .navbar-custom .navbar-collapse {
+    background-color: #000;
+    padding: 15px;
+  } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************
+*** PAGETITLE ****************
+**************************************/
+
+
+
+
+
+
+/*************************************
+*** MAIN CONTENT *********************
+**************************************/
+
+
+
+/*************************************
+*** MAIN CONTENT LEFT COLUMN *********
+**************************************/
+
+
+/*************************************
+*** NEWS LAYOUT *************
+**************************************/
+
+
+/*************************************
+*** NEWS EXTENDED LAYOUT *************
+**************************************/
+
+
+
+/*************************************
+*** VIEW ITEM - NEWS-VIEW-PAGINATION ******
+**************************************/
+
+
+
+
+/*************************************
+*** VIEW ITEM - AUTHOR ******
+**************************************/
+
+
+
+/*************************************
+*** NEWS EXTENDED POST - RATE ********
+**************************************/
+
+
+
+/*************************************
+*** NEWS EXTENDED RELATED NEWS *******
+**************************************/
+.e-related {
+  margin-top: 25px;
+}
+.e-related h2.related-news-title {
+  font-family: "Oswald", sans-serif; 
+  font-size: 26px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 30px;
+  margin: 0;
+  padding: 15px 0 25px 0;
+}
+.e-related .related-news-image {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.e-related .related-news-image img {
+  padding: 0;
+  -moz-border-radius: 0;
+  -khtml-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0; 
+  -o-transition: transform 1s;
+  -ms-transition: transform 1s;
+  -moz-transition: transform 1s;
+  -webkit-transition: transform 1s;
+  transition:transform 1s;  
+}
+.e-related .related-news-image:hover img {  
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.e-related .related-news-header {
+  margin: 0 0 15px 0;
+  padding: 10px 0 15px 0;
+}
+.e-related .related-news-header h4.related-news-caption {
+  font-family: "Oswald", sans-serif; 
+  font-size: 18px;
+  font-weight: 500;
+  color: #c4c4c4;
+  line-height: 1.1;
+}
+.e-related .related-news-header h4.related-news-caption a {
+  color: #fff;
+}
+.e-related .related-news-header h4.related-news-caption a:hover {
+  color: #f36100;
+}
+.e-related  .related-news-header .related-news-summary {
+  color: #c4c4c4;
+}
+
+.view-item-back {
+  margin: 0 0 30px 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+/*************************************
+*** NEWS - CATEGORY'S NEWS LAYOUT ****
+**************************************/
+/* Same as news default */
+
+
+/*************************************
+*** NEWS LIST LAYOUT *****************
+**************************************/
+.list-news-items {
+  margin-bottom: 25px;
+}
+.list-news-items .list-news-item {
+  overflow: hidden; 
+  margin: 0 0 30px 0;
+  padding: 0;
+  background-color: #transparent;
+  border: 1px solid #363636;
+}
+.list-news-items .list-news-item:hover {
+  border: 1px solid #f36100;
+} 
+.list-news-items .list-news-item-image {
+  overflow: hidden;
+  margin: 0;
+}
+.list-news-items .list-news-item-image img {
+  position: relative;
+  padding: 0;
+  -moz-border-radius: 0 !important;
+  -khtml-border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  border-radius: 0 !important; 
+  -o-transition: transform 1s;
+  -ms-transition: transform 1s;
+  -moz-transition: transform 1s;
+  -webkit-transition: transform 1s;
+  transition:transform 1s;   
+}
+.list-news-items .list-news-item-image:hover img {  
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.list-news-items .list-news-item-image .list-news-item-category {
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  overflow: hidden; 
+  display: inline-block;
+  background-color: #f8ad30;       
+  padding: 7px 8px;
+  font-family: "Oswald", sans-serif; 
+  font-size: 18px; 
+  font-weight: 600;
+  color: #fff;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.list-news-items .list-news-item-image .list-news-item-category a {
+  color: #fff;
+}
+.list-news-items .list-news-item-image .list-news-item-category a:hover {
+  color: #000;
+}
+.list-news-items h2.list-news-item-title {
+  font-family: "Oswald", sans-serif; 
+  font-size: 22px; 
+  font-weight: 600;
+  color: #fff;
+  line-height: 28px;
+  margin: 0;
+  padding: 10px 15px 10px 5px;
+}
+.list-news-items h2.list-news-item-title a {
+  color: #f36100; 
+}
+.list-news-items h2.list-news-item-title a:hover {
+  color: #fff;
+}
+.list-news-items .list-news-item-info {
+  font-family: "Oswald", sans-serif;
+  font-size: 12px;
+  font-weight: 500; 
+  color: #888;
+  padding: 0 15px 10px 5px; 
+}
+.list-news-items .list-news-item-info a {
+  color: #c4c4c4;
+}
+.list-news-items .list-news-item-info a:hover {
+  color: #f36100;
+}
+.list-news-items .list-news-item-body {
+  padding: 0 15px 10px 5px; 
+}
+.list-news-items .list-news-item-body p { 
+  font: 14px Sans-serif;  
+  color: #a1a1a1;       
+  margin: 0;
+  padding: 0 0 10px 0; 
+  /* hide text if it more than N lines  */
+  overflow: hidden;
+  /* for set '...' in absolute position */
+  position: relative; 
+  /* use this value to count block height */
+  line-height: 1.2em;
+  /* max-height = line-height (1.2) * lines max number (3) */
+  max-height: 7.2em; 
+  /* fix problem when last visible word doesn't adjoin right side  */
+  text-align: justify;  
+  /* place for '...' */
+  padding-right: 1em; 
+}
+/* create the ... */
+.list-news-items .list-news-item-body p:before {
+  /* points in the end */
+  content: '...';
+  /* absolute position */
+  position: absolute;
+  /* set position to right bottom corner of block */
+  right: 0;
+  bottom: 0;
+}
+/* hide ... if we have text, which is less than or equal to max lines */
+.list-news-items .list-news-item-body p:after {
+  /* points in the end */
+  content: '';
+  /* absolute position */
+  position: absolute;
+  /* set position to right bottom corner of text */
+  right: 0;
+  /* set width and height */
+  width: 1em;
+  height: 1em;
+  margin-top: 0.2em;
+  /* bg color = bg color under block */
+  background: #151515;
+}
+.list-news-items .list-news-item-extended a { 
+  display: inline-block; 
+  font-size: 24px;  
+  color: #828282;
+  line-height: 1.6;
+  text-transform: uppercase;  
+  float: right;  
+  padding: 0 25px 10px 5px;
+}
+.list-news-items .list-news-item-extended a:hover {
+  color: #f36100;
+  text-decoration: none;
+}
+
+
+/*************************************
+*** MAIN CONTENT LEFT BOTTOM MENUS *********
+**************************************/
+.leftbottom-content { 
+  overflow: hidden;
+  margin: 0 0 30px 0;
+  padding: 80px 20px 20px 50px;
+  background-color: transparent;
+}
+.leftbottom-content-title { 
+  margin: 0 0 25px 0;
+  padding: 0;
+}
+.leftbottom-content-title h2 {
+  font-family: "Exo 2", sans-serif;
+  font-size: 20px;
+  font-weight: 600;  
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1.2; 
+  margin: 0;
+  padding: 0;
+} 
+.leftbottom-content-body {  
+  font: 14px sans-serif; 
+  color: #888; 
+  padding: 0;
+}
+
+
+/*************************************
+*** MAIN CONTENT RIGHT COLUMN *********
+**************************************/
+.rightcol {
+  margin: 0;
+  padding: 0;
+}
+.rightcol-content { 
+  overflow: hidden;
+  margin: 0 0 30px 0;
+  padding: 25px 25px;
+  background-color: rgba(197, 203, 207, 0.1);
+  border-top: 7px solid #ff6600;
+}
+.rightcol-content-title { 
+  margin: 0 0 25px 0;
+  padding: 0;
+}
+.rightcol-content-title h2 {
+  font-family: "Exo 2", sans-serif;
+  font-size: 20px;
+  font-weight: 600;  
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1.2; 
+  margin: 0;
+  padding: 0;
+}
+.rightcol-content-title h2:after {
+  content: ""; 
+  display: block;
+  margin: 0;
+  width: 50%;
+  padding-top: 15px;
+  border-bottom: 3px solid #3e3e3e;
+}
+.rightcol-content-body {  
+  font: 14px sans-serif; 
+  color: #888; 
+  padding: 0;
+}
+
+
+/* SIDEBAR menu ul, li, badget */
+.rightcol-content-body > ul {
+  margin: 0;
+  padding: 0;
+}
+.rightcol-content-body > ul > li {
+  list-style: none;
+  background-color: #1c1c1c;
+  border: none;
+  margin: 3px 0;
+  padding: 3px 5px;
+  display: block; 
+}
+.rightcol-content-body > ul > li:hover,
+.rightcol-content-body > ul > li.active {
+  background-color: #f36100;
+}
+.rightcol-content-body > ul > li > a { 
+  font-family: "Oswald", sans-serif; 
+  font-size: 14px;
+  font-weight: 400; 
+  color: #c4c4c4;
+  line-height: 25px;
+  text-transform: uppercase;
+  background-color: transparent;
+  padding: 0;  
+}
+.rightcol-content-body > ul > li > a:hover,
+.rightcol-content-body > ul > li > a:focus { 
+  color: #fff; 
+}
+.rightcol-content-body > ul > li > a span.badge {
+  float: right;
+  background-color: transparent;
+  font-family: "Oswald", sans-serif; 
+  font-size: 14px;
+  font-weight: 400; 
+  line-height: 25px;
+  color: #c4c4c4;
+  margin-left: 15px;
+  padding: 0;
+}
+.rightcol-content-body > ul > li > a:hover span.badge {
+  background-color: transparent;
+  color: #fff;
+}
+
+
+/* SIDEBAR menu h2 span btn */
+.rightcol-content-title h2 span.btn-group {
+  margin-top: -5px;
+  vertical-align: middle;
+}
+.rightcol-content-title h2 span.btn-group a.btn {
+  font-size: 20px;
+  line-height: 1.2;
+  padding: 0 5px;
+}
+
+
+/* SIDEBAR menu media-list */ 
+.rightcol-content li.media {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  margin-top: 0;
+  padding: 10px 0;
+}
+.rightcol-content li.media .media-object img {
+  -moz-border-radius: 50% !important;
+  -khtml-border-radius: 50% !important;
+  -webkit-border-radius: 50% !important;
+  border-radius: 50% !important; 
+}
+
+.rightcol ::-webkit-input-placeholder { color: rgba(0,0,0,0.1); }
+.rightcol ::-moz-placeholder { color: rgba(0,0,0,0.1); }
+.rightcol :-ms-input-placeholder { color: rgba(0,0,0,0.1); }
+.rightcol :-moz-placeholder { color: rgba(0,0,0,0.1); }
+
+
+/*************************************
+*** FOOTER ***************************
+**************************************/
+
+
+/*************************************
+*** FOOTER LOGO, SITENAME, SITETAG *******************
+**************************************/
+
+
+
+
+
+
+/*************************************
+*** COMMENTS STYLE *******************
+**************************************/
+
+
+/*************************************
+*** OTHER MENU STYLE *****************
+**************************************/
+
+
+
+/*************************************
+*** LATEST NEWS MENU *****************
+**************************************/
+
+
+/*************************************
+*** POPULAR NEWS MENU *****************
+**************************************/
+
+
+/*************************************
+*** TAGCLOUD MENU *****************
+**************************************/
+
+
+
+/*************************************
+*** COMMENTS MENU *****************
+**************************************/
+
+
+
+/*************************************
+*** CHATBOX MENU *****************
+**************************************/
+
+
+/*************************************
+*** CONTACT *****************
+**************************************/
+
+
+/*************************************
+******** CONTACT INFO BOTTOM ********* 
+**************************************/
+
+
+/*************************************
+*** FOOTER NAVIGATION LINKS *****************
+**************************************/
+
+
+/*************************************
+*** GALLERY *****************
+**************************************/   
+
+
+
+
+
+
+/*************************************
+*** USERPROFIL PAGE - CARD STYLE *****************
+**************************************/
+
+
+/*---------------------------------------
+	WMESSAGE - PART OF HOMEPAGE
+-----------------------------------------*/
+
+
+
+
+
+
+
+/********************** core style ********************************/
+
+/*------------------------------------------
+	tbox, chatbox, button
+--------------------------------------------*/ 
+
+
+
+
+
+/*------------------------------------------
+	PAGINATION
+--------------------------------------------*/
+
+
+/*------------------------------------------
+	TABS
+--------------------------------------------*/ 
+
+
+/*------------------------------------------
+	PAGER
+--------------------------------------------*/ 
+
+
+/*------------------------------------------
+	PROGRESS BAR 
+--------------------------------------------*/
+
+
+/*------------------------------------------
+	BBCODE PANEL 
+--------------------------------------------*/
+
+
+/*------------------------------------------
+	FORUMS
+--------------------------------------------*/
+
+
+
+/*------------------------------------------
+	FORUM TRACK 
+--------------------------------------------*/
+
+   
+
+/*------------------------------------------
+	FORUM VIEWFORUM 
+--------------------------------------------*/
+
+
+
+/*------------------------------------------
+	FORUM VIEWTOPIC 
+--------------------------------------------*/
+
+
+/*------------------------------------------
+	FORUM STATS - RESPONSIVE 
+--------------------------------------------*/
+
+
+
+
+
+/*------------------------------------------
+	OTHER TABLE STYLE ************************ 
+--------------------------------------------*/
+
+
+
+/* TEXTS */
+
+.smalltext { font: 11px Arial, Helvetica, Sans-serif; } 
+.smallblacktext { font: 11px Arial, Helvetica, Sans-serif; }  
+.defaulttext { font: 13px Arial, Helvetica, Sans-serif; }
+.mediumtext { font: 12px Arial, Helvetica, Sans-serif; }
+blockquote {  
+  font-family: "oswald", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.2; 
+  text-align: center;
+  border: 2px solid #363636;
+  padding: 40px 22px 25px;
+  position: relative;
+  margin-bottom: 30px;
+  quotes: "\201C""\201D""\2018""\2019";   
+}
+blockquote:before {    
+  color: #f36100;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em; 
+}
+
+
+
+/* MISC */
+/* form { margin: 2px 0px 0px 0px; }  */
+
+
+

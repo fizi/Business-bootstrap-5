@@ -129,8 +129,8 @@ $NEWS_GRID_TEMPLATE['homepage-latestnews']['featured'] = '
 $NEWS_GRID_TEMPLATE['homepage-latestnews']['item'] = '
   <div class="col-lg-4 mb-5">
     <div class="card h-100 shadow border-0">
-      {SETIMAGE: w=600&h=350&crop=1}
-      <a href="{NEWS_URL}">{NEWSIMAGE: item=1&class=card-img-top news-image img-responsive img-fluid}</a>
+      {SETIMAGE: w=376&h=219&crop=1}
+      <a href="{NEWS_URL}">{NEWSIMAGE: item=1&class=card-img-top}</a>
       <div class="card-body p-4">
         <div class="badge bg-primary bg-gradient rounded-pill mb-2">{NEWS_CATEGORY_NAME}</div>
         <a class="text-decoration-none link-dark stretched-link" href="{NEWS_URL}"><h5 class="card-title mb-3">{NEWS_TITLE}</h5></a>
