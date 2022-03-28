@@ -2,7 +2,7 @@
 <e107Theme name="Business BS5" version="1.0" date="2021-11-27" compatibility="2.0" >
 	<author name="fizi" url="http://fizithemes.hu" email="fizi@wsb.hu"/>
 	<summary>Modern Business theme by fizi</summary>
-	<description>Bootstrap 5 theme</description>
+	<description>Bootstrap 5 theme based on https://startbootstrap.com/template/modern-business</description>
   <category>business</category>
   <copyright>Theme by: FIZI THEMES</copyright>
   <plugins>
